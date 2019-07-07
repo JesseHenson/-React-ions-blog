@@ -16,6 +16,18 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `{React}ions`,
+        short_name: `{React}`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
+        display: `standalone`,
+        icon: `src/images/favicon-32x32.png`
+      },
+    },
     `gatsby-transformer-remark`,
     `gatsby-plugin-emotion`,
     {
